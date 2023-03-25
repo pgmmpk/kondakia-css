@@ -1,0 +1,32 @@
+@page {
+    size: 3.75in 5.5in;
+    margin: 0.125in;
+}
+
+@font-face {
+    font-family: 'Monomakh Unicode';
+    src: url('https://sci.ponomar.net/fonts/MonomakhUnicode.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+kinovar {
+    color: rgb(200,7,3)
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+body {
+    font-family: 'PT Sans Narrow';
+}
+
+p {
+    font-size: 125%;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
