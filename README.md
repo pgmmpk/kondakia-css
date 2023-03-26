@@ -16,6 +16,10 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Nativity - Рождество
 [ru](files/nativity-ru.pdf) [en](files/nativity-en.pdf) [cu](files/nativity-cu.pdf)
 
+### Dormition - Успение
+[ru](files/dormition-ru.pdf) [en](files/dormition-en.pdf) [cu](files/dormition-cu.pdf)
+
+
 ## Printing - Печать
 
 ### Mac Book
