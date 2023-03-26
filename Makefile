@@ -1,9 +1,10 @@
 DOCKER := docker run -it --workdir /data -v$(PWD):/data minidocks/weasyprint
 
 all: \
-	files/ascension-ru.pdf files/ascension-en.pdf \
+	files/ascension-ru.pdf files/ascension-en.pdf files/ascension-cu.pdf \
 	files/annunciation-ru.pdf files/annunciation-en.pdf files/annunciation-cu.pdf \
 	files/easter-ru.pdf files/easter-en.pdf files/easter-cu.pdf \
+	files/nativity-ru.pdf files/nativity-en.pdf files/nativity-cu.pdf \
 
 
 clean:
@@ -12,6 +13,8 @@ clean:
 files/ascension-ru.pdf: ascension/ru.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/ascension-en.pdf: ascension/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/ascension-cu.pdf: ascension/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 
 
@@ -30,3 +33,9 @@ files/easter-en.pdf: easter/en.html common.css
 files/easter-cu.pdf: easter/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 
+files/nativity-ru.pdf: nativity/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/nativity-en.pdf: nativity/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/nativity-cu.pdf: nativity/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
