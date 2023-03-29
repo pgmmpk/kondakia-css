@@ -31,7 +31,7 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 6. Press Ctrl+P to open print dialog
 7. Tick "Print on both sides"
 8. Expand Layout section and for "Pages per Shet" option select 4.
-9. In the same section choose Border as "hair-thin border"
+9. In the same section choose Border as "Single Hairline"
 9. Print
 
 1. Откройте Preview и загрузите туда PDF карточки
@@ -42,7 +42,7 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 6. Нажмите Ctrl+P для перехода к печати
 7. Поставьте галочку "двусторонняя печать"
 8. В разделе Layout для значения "Pages per Sheet" выберите опцию "4"
-9. В том же разделе для Border выберите "hair-thin border"
+9. В том же разделе для Border выберите "Single Hairline"
 10. Печатаем
 
 ## Building from sources

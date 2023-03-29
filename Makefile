@@ -6,6 +6,7 @@ all: \
 	files/easter-ru.pdf files/easter-en.pdf files/easter-cu.pdf \
 	files/nativity-ru.pdf files/nativity-en.pdf files/nativity-cu.pdf \
 	files/dormition-ru.pdf files/dormition-en.pdf files/dormition-cu.pdf \
+	files/elevation-ru.pdf files/elevation-en.pdf files/elevation-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -45,4 +46,11 @@ files/dormition-ru.pdf: dormition/ru.html common.css
 files/dormition-en.pdf: dormition/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/dormition-cu.pdf: dormition/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/elevation-ru.pdf: elevation/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/elevation-en.pdf: elevation/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/elevation-cu.pdf: elevation/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
