@@ -19,6 +19,19 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Dormition - Успение
 [ru](files/dormition-ru.pdf) [en](files/dormition-en.pdf) [cu](files/dormition-cu.pdf)
 
+### Elevation - Воздвижение
+[ru](files/elevation-ru.pdf) [en](files/elevation-en.pdf) [cu](files/elevation-cu.pdf)
+
+### The Entry - Веедение
+[ru](files/entry-ru.pdf) [en](files/entry-en.pdf) [cu](files/entry-cu.pdf)
+
+### Epiphany - Богоявление
+[ru](files/epiphany-ru.pdf) [en](files/epiphany-en.pdf) [cu](files/epiphany-cu.pdf)
+
+## Bonus
+
+### The Creed - Символ веры
+[ru](files/creed-ru.pdf) [en](files/creed-en.pdf) [cu](files/creed-cu.pdf) 
 
 ## Printing - Печать
 
