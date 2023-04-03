@@ -2,6 +2,7 @@ DOCKER := docker run -it --rm --workdir /data -v$(PWD):/data minidocks/weasyprin
 
 all: \
 	files/credo-cu.pdf files/credo-ru.pdf files/credo-en.pdf \
+	files/lords-en.pdf files/lords-ru.pdf files/lords-cu.pdf \
 	files/ascension-ru.pdf files/ascension-en.pdf files/ascension-cu.pdf \
 	files/annunciation-ru.pdf files/annunciation-en.pdf files/annunciation-cu.pdf \
 	files/easter-ru.pdf files/easter-en.pdf files/easter-cu.pdf \
@@ -19,6 +20,13 @@ files/credo-ru.pdf: credo/ru.html common.css
 files/credo-cu.pdf: credo/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/credo-en.pdf: credo/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/lords-en.pdf: lords/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/lords-ru.pdf: lords/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/lords-cu.pdf: lords/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 
 files/ascension-ru.pdf: ascension/ru.html common.css

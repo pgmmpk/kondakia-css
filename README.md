@@ -33,6 +33,10 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### The Creed - Символ веры
 [ru](files/creed-ru.pdf) [en](files/creed-en.pdf) [cu](files/creed-cu.pdf) 
 
+### The Lord's Prayer - Отче наш
+[ru](files/lords-ru.pdf) [en](files/lords-en.pdf) [cu](files/lords-cu.pdf) 
+
+
 ## Printing - Печать
 
 ### Mac Book
