@@ -11,6 +11,7 @@ all: \
 	files/elevation-ru.pdf files/elevation-en.pdf files/elevation-cu.pdf \
 	files/entry-ru.pdf files/entry-en.pdf files/entry-cu.pdf \
 	files/epiphany-ru.pdf files/epiphany-en.pdf files/epiphany-cu.pdf \
+	files/palm-ru.pdf files/palm-en.pdf files/palm-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -85,4 +86,11 @@ files/epiphany-ru.pdf: epiphany/ru.html common.css
 files/epiphany-en.pdf: epiphany/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/epiphany-cu.pdf: epiphany/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/palm-ru.pdf: palm/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/palm-en.pdf: palm/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/palm-cu.pdf: palm/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@

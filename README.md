@@ -28,6 +28,9 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Epiphany - Богоявление
 [ru](files/epiphany-ru.pdf) [en](files/epiphany-en.pdf) [cu](files/epiphany-cu.pdf)
 
+### Palm Sunday - Вход Господень в Иерусалим
+[ru](files/palm-ru.pdf) [en](files/palm-en.pdf) [cu](files/palm-cu.pdf)
+
 ## Bonus
 
 ### The Creed - Символ веры
