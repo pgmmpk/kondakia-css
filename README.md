@@ -34,6 +34,12 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Nativity of the Virgin - Рождество Богородицы
 [ru](files/nativity-of-the-virgin-ru.pdf) [en](files/nativity-of-the-virgin-en.pdf) [cu](files/nativity-of-the-virgin-cu.pdf)
 
+### Meeting - Сретиние
+[ru](files/meeting-ru.pdf) [en](files/meeting-en.pdf) [cu](files/meeting-cu.pdf)
+
+### Pentecost - Пятидесятница
+[ru](files/pentecost-ru.pdf) [en](files/pentecost-en.pdf) [cu](files/pentecost-cu.pdf)
+
 ## Bonus
 
 ### The Creed - Символ веры

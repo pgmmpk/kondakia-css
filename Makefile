@@ -13,6 +13,8 @@ all: \
 	files/epiphany-ru.pdf files/epiphany-en.pdf files/epiphany-cu.pdf \
 	files/palm-ru.pdf files/palm-en.pdf files/palm-cu.pdf \
 	files/nativity-of-the-virgin-ru.pdf files/nativity-of-the-virgin-en.pdf files/nativity-of-the-virgin-cu.pdf \
+	files/meeting-ru.pdf files/meeting-en.pdf files/meeting-cu.pdf \
+	files/pentecost-ru.pdf files/pentecost-en.pdf files/pentecost-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -101,4 +103,18 @@ files/nativity-of-the-virgin-ru.pdf: nativity-of-the-virgin/ru.html common.css
 files/nativity-of-the-virgin-en.pdf: nativity-of-the-virgin/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/nativity-of-the-virgin-cu.pdf: nativity-of-the-virgin/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/meeting-ru.pdf: meeting/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/meeting-en.pdf: meeting/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/meeting-cu.pdf: meeting/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/pentecost-ru.pdf: pentecost/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/pentecost-en.pdf: pentecost/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/pentecost-cu.pdf: pentecost/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
