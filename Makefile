@@ -12,6 +12,7 @@ all: \
 	files/entry-ru.pdf files/entry-en.pdf files/entry-cu.pdf \
 	files/epiphany-ru.pdf files/epiphany-en.pdf files/epiphany-cu.pdf \
 	files/palm-ru.pdf files/palm-en.pdf files/palm-cu.pdf \
+	files/nativity-of-the-virgin-ru.pdf files/nativity-of-the-virgin-en.pdf files/nativity-of-the-virgin-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -93,4 +94,11 @@ files/palm-ru.pdf: palm/ru.html common.css
 files/palm-en.pdf: palm/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/palm-cu.pdf: palm/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/nativity-of-the-virgin-ru.pdf: nativity-of-the-virgin/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/nativity-of-the-virgin-en.pdf: nativity-of-the-virgin/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/nativity-of-the-virgin-cu.pdf: nativity-of-the-virgin/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@

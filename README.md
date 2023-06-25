@@ -22,7 +22,7 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Elevation - Воздвижение
 [ru](files/elevation-ru.pdf) [en](files/elevation-en.pdf) [cu](files/elevation-cu.pdf)
 
-### The Entry - Веедение
+### The Entry - Введение
 [ru](files/entry-ru.pdf) [en](files/entry-en.pdf) [cu](files/entry-cu.pdf)
 
 ### Epiphany - Богоявление
@@ -30,6 +30,9 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 
 ### Palm Sunday - Вход Господень в Иерусалим
 [ru](files/palm-ru.pdf) [en](files/palm-en.pdf) [cu](files/palm-cu.pdf)
+
+### Nativity of the Virgin - Рождество Богородицы
+[ru](files/nativity-of-the-virgin-ru.pdf) [en](files/nativity-of-the-virgin-en.pdf) [cu](files/nativity-of-the-virgin-cu.pdf)
 
 ## Bonus
 
