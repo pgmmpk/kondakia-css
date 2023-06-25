@@ -7,14 +7,20 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Annunciation - Благовещение
 [ru](files/annunciation-ru.pdf) [en](files/annunciation-en.pdf) [cu](files/annunciation-cu.pdf)
 
+### Palm Sunday - Вход Господень в Иерусалим
+[ru](files/palm-ru.pdf) [en](files/palm-en.pdf) [cu](files/palm-cu.pdf)
+
 ### Easter - Пасха
 [ru](files/easter-ru.pdf) [en](files/easter-en.pdf) [cu](files/easter-cu.pdf)
 
 ### Ascension - Вознесение
 [ru](files/ascension-ru.pdf) [en](files/ascension-en.pdf) [cu](files/ascension-cu.pdf)
 
-### Nativity - Рождество
-[ru](files/nativity-ru.pdf) [en](files/nativity-en.pdf) [cu](files/nativity-cu.pdf)
+### Pentecost - Пятидесятница
+[ru](files/pentecost-ru.pdf) [en](files/pentecost-en.pdf) [cu](files/pentecost-cu.pdf)
+
+### Transfiguration - Преображение
+[ru](files/pentecost-ru.pdf) [en](files/pentecost-en.pdf) [cu](files/pentecost-cu.pdf)
 
 ### Dormition - Успение
 [ru](files/dormition-ru.pdf) [en](files/dormition-en.pdf) [cu](files/dormition-cu.pdf)
@@ -25,20 +31,18 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### The Entry - Введение
 [ru](files/entry-ru.pdf) [en](files/entry-en.pdf) [cu](files/entry-cu.pdf)
 
-### Epiphany - Богоявление
-[ru](files/epiphany-ru.pdf) [en](files/epiphany-en.pdf) [cu](files/epiphany-cu.pdf)
-
-### Palm Sunday - Вход Господень в Иерусалим
-[ru](files/palm-ru.pdf) [en](files/palm-en.pdf) [cu](files/palm-cu.pdf)
-
-### Nativity of the Virgin - Рождество Богородицы
-[ru](files/nativity-of-the-virgin-ru.pdf) [en](files/nativity-of-the-virgin-en.pdf) [cu](files/nativity-of-the-virgin-cu.pdf)
+### Nativity - Рождество
+[ru](files/nativity-ru.pdf) [en](files/nativity-en.pdf) [cu](files/nativity-cu.pdf)
 
 ### Meeting - Сретиние
 [ru](files/meeting-ru.pdf) [en](files/meeting-en.pdf) [cu](files/meeting-cu.pdf)
 
-### Pentecost - Пятидесятница
-[ru](files/pentecost-ru.pdf) [en](files/pentecost-en.pdf) [cu](files/pentecost-cu.pdf)
+### Epiphany - Богоявление
+[ru](files/epiphany-ru.pdf) [en](files/epiphany-en.pdf) [cu](files/epiphany-cu.pdf)
+
+### Nativity of the Virgin - Рождество Богородицы
+[ru](files/nativity-of-the-virgin-ru.pdf) [en](files/nativity-of-the-virgin-en.pdf) [cu](files/nativity-of-the-virgin-cu.pdf)
+
 
 ## Bonus
 

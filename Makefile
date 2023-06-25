@@ -15,6 +15,7 @@ all: \
 	files/nativity-of-the-virgin-ru.pdf files/nativity-of-the-virgin-en.pdf files/nativity-of-the-virgin-cu.pdf \
 	files/meeting-ru.pdf files/meeting-en.pdf files/meeting-cu.pdf \
 	files/pentecost-ru.pdf files/pentecost-en.pdf files/pentecost-cu.pdf \
+	files/transfiguration-ru.pdf files/transfiguration-en.pdf files/transfiguration-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -117,4 +118,11 @@ files/pentecost-ru.pdf: pentecost/ru.html common.css
 files/pentecost-en.pdf: pentecost/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/pentecost-cu.pdf: pentecost/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/transfiguration-ru.pdf: transfiguration/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/transfiguration-en.pdf: transfiguration/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/transfiguration-cu.pdf: transfiguration/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
