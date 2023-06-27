@@ -16,6 +16,7 @@ all: \
 	files/meeting-ru.pdf files/meeting-en.pdf files/meeting-cu.pdf \
 	files/pentecost-ru.pdf files/pentecost-en.pdf files/pentecost-cu.pdf \
 	files/transfiguration-ru.pdf files/transfiguration-en.pdf files/transfiguration-cu.pdf \
+	files/st-vladimir-ru.pdf files/st-vladimir-en.pdf files/st-vladimir-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -125,4 +126,11 @@ files/transfiguration-ru.pdf: transfiguration/ru.html common.css
 files/transfiguration-en.pdf: transfiguration/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/transfiguration-cu.pdf: transfiguration/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/st-vladimir-ru.pdf: st-vladimir/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/st-vladimir-en.pdf: st-vladimir/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/st-vladimir-cu.pdf: st-vladimir/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
