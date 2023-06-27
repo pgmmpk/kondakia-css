@@ -17,6 +17,7 @@ all: \
 	files/pentecost-ru.pdf files/pentecost-en.pdf files/pentecost-cu.pdf \
 	files/transfiguration-ru.pdf files/transfiguration-en.pdf files/transfiguration-cu.pdf \
 	files/st-vladimir-ru.pdf files/st-vladimir-en.pdf files/st-vladimir-cu.pdf \
+	files/st-olga-ru.pdf files/st-olga-en.pdf files/st-olga-cu.pdf \
 
 clean:
 	rm -f files/*.pdf
@@ -133,4 +134,11 @@ files/st-vladimir-ru.pdf: st-vladimir/ru.html common.css
 files/st-vladimir-en.pdf: st-vladimir/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/st-vladimir-cu.pdf: st-vladimir/cu.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+
+files/st-olga-ru.pdf: st-olga/ru.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/st-olga-en.pdf: st-olga/en.html common.css
+	$(DOCKER) weasyprint -e utf-8 $< $@
+files/st-olga-cu.pdf: st-olga/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
