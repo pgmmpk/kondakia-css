@@ -1,5 +1,8 @@
 DOCKER := docker run -it --rm --workdir /data -v$(PWD):/data minidocks/weasyprint
 
+prt=pdfsquash -o "$1-$2-$3.pdf" "files/$1-$2.pdf" "files/$1-$2.pdf" "files/$1-$2.pdf" "files/$1-$2.pdf" "files/$1-$3.pdf" "files/$1-$3.pdf" "files/$1-$3.pdf" "files/$1-$3.pdf"
+
+
 all: \
 	files/credo-cu.pdf files/credo-ru.pdf files/credo-en.pdf \
 	files/lords-en.pdf files/lords-ru.pdf files/lords-cu.pdf \
@@ -10,7 +13,7 @@ all: \
 	files/dormition-ru.pdf files/dormition-en.pdf files/dormition-cu.pdf \
 	files/elevation-ru.pdf files/elevation-en.pdf files/elevation-cu.pdf \
 	files/entry-ru.pdf files/entry-en.pdf files/entry-cu.pdf \
-	files/epiphany-ru.pdf files/epiphany-en.pdf files/epiphany-cu.pdf \
+	files/theophany-ru.pdf files/theophany-en.pdf files/theophany-cu.pdf \
 	files/palm-ru.pdf files/palm-en.pdf files/palm-cu.pdf \
 	files/nativity-of-the-virgin-ru.pdf files/nativity-of-the-virgin-en.pdf files/nativity-of-the-virgin-cu.pdf \
 	files/meeting-ru.pdf files/meeting-en.pdf files/meeting-cu.pdf \
@@ -87,11 +90,11 @@ files/entry-en.pdf: entry/en.html common.css
 files/entry-cu.pdf: entry/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 
-files/epiphany-ru.pdf: epiphany/ru.html common.css
+files/theophany-ru.pdf: theophany/ru.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
-files/epiphany-en.pdf: epiphany/en.html common.css
+files/theophany-en.pdf: theophany/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
-files/epiphany-cu.pdf: epiphany/cu.html common.css
+files/theophany-cu.pdf: theophany/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 
 files/palm-ru.pdf: palm/ru.html common.css
@@ -142,3 +145,22 @@ files/st-olga-en.pdf: st-olga/en.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
 files/st-olga-cu.pdf: st-olga/cu.html common.css
 	$(DOCKER) weasyprint -e utf-8 $< $@
+
+
+prt:
+	$(call prt,annunciation,en,ru)
+	$(call prt,ascension,en,ru)
+	$(call prt,dormition,en,ru)	
+	$(call prt,easter,en,ru)
+	$(call prt,elevation,en,ru)
+	$(call prt,entry,en,ru)	
+	$(call prt,theophany,en,ru)
+	$(call prt,lords,en,ru)
+	$(call prt,meeting,en,ru)
+	$(call prt,nativity,en,ru)
+	$(call prt,nativity-of-the-virgin,en,ru)
+	$(call prt,palm,en,ru)
+	$(call prt,pentecost,en,ru)
+	$(call prt,transfiguration,en,ru)
+	pdfsquash -o st-olga-en-ru.pdf files/st-olga-en.pdf files/st-olga-ru.pdf files/st-olga-en.pdf files/st-olga-ru.pdf
+	pdfsquash -o st-vladimir-en-ru.pdf files/st-vladimir-en.pdf files/st-vladimir-ru.pdf files/st-vladimir-en.pdf files/st-vladimir-ru.pdf

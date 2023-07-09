@@ -1,6 +1,8 @@
 @page {
-    size: 3.75in 5.5in;
-    margin: 0.125in;
+    size: 4.25in 5.5in;
+    margin: 0;
+    padding: 0.125in;
+    border: 1px solid gray;
 }
 
 @font-face {
@@ -16,7 +18,7 @@ kinovar {
 
 h1 {
     text-align: center;
-    font-size: 200%;
+    font-size: 220%;
     margin-bottom: 0;
     margin-top: 0;
 }
@@ -26,7 +28,7 @@ body {
 }
 
 p {
-    font-size: 125%;
+    font-size: 130%;
     margin-top: 0.5em;
     margin-bottom: 0;
 }
