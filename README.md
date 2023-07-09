@@ -37,8 +37,8 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 ### Meeting - Сретиние
 [ru](files/meeting-ru.pdf) [en](files/meeting-en.pdf) [cu](files/meeting-cu.pdf)
 
-### Epiphany - Богоявление
-[ru](files/epiphany-ru.pdf) [en](files/epiphany-en.pdf) [cu](files/epiphany-cu.pdf)
+### Theophany - Богоявление
+[ru](files/theophany-ru.pdf) [en](files/theophany-en.pdf) [cu](files/theophany-cu.pdf)
 
 ### Nativity of the Virgin - Рождество Богородицы
 [ru](files/nativity-of-the-virgin-ru.pdf) [en](files/nativity-of-the-virgin-en.pdf) [cu](files/nativity-of-the-virgin-cu.pdf)
