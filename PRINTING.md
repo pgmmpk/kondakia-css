@@ -35,5 +35,5 @@ squash() {
 
 Then 
 ```bash
-squash lords-en-ru.pdf files/lords-en.pdf files/lords-ru.pdf
+squash lords en ru
 ```
