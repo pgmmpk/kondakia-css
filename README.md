@@ -67,6 +67,8 @@ Each card contains Troparion, Kontakion, and Magnification (if available). Cards
 9. In the same section choose Border as "Single Hairline"
 9. Print
 
+---
+
 1. Откройте Preview и загрузите туда PDF карточки
 2. В меню View поставьте галочку у Thumbnails - появится левая панель со страницами (пока будет только одна страница)
 3. Через меню Edit / Insert Page добавляйте тот же файл, пока не получите четыре страницы в левой колонке. Это карточки что будут напечатаны на лицевой стороне листа.
